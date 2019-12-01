@@ -17,7 +17,7 @@ The same procedure is coducted for test dataset.
 
 The final result is 2 rows of 2 data frames that are merged together to form are data frame with complete data.
 
-To extract measurements that involves only mean and standard deviation values script uses grep, that finds column names that includes "mean()" or "std()" (also columns activity and subject are added to filtered data frame, since they are important dimensions). 
+Utilize grep to finds column names that includes "mean()" or "std()" measurements.
 
 A new data frame with only necessary columns is created. 
 
